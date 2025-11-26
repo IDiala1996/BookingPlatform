@@ -11,8 +11,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BookingPlatform.ApiService\BookingPlatform.ApiService.csproj" />
-    <ProjectReference Include="..\BookingPlatform.Web\BookingPlatform.Web.csproj" />
+    <ProjectReference Include="..\UsersService\UsersService.API\UsersService.API.csproj" />
+    <ProjectReference Include="..\ProvidersService\ProvidersService.API\ProvidersService.API.csproj" />
+    <ProjectReference Include="..\BookingsService\BookingsService.API\BookingsService.API.csproj" />
+    <ProjectReference Include="..\ReviewsService\ReviewsService.API\ReviewsService.API.csproj" />
+    <ProjectReference Include="..\NotificationsService\NotificationsService.API\NotificationsService.API.csproj" />
+    <ProjectReference Include="..\PaymentsService\PaymentsService.API\PaymentsService.API.csproj" />
   </ItemGroup>
 
   <ItemGroup>
